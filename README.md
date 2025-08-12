@@ -1,23 +1,12 @@
 # Amazon Product Listings Scraper
 
-A simple fullstack application that scrapes Amazon product listings from the first page of search results for a given keyword.
-
----
-
-## Features
-
-- Backend with Bun, Express, Axios, and JSDOM for scraping and parsing Amazon search results.
-- Frontend built with Vanilla JavaScript and Vite for a responsive, user-friendly UI.
-- Displays product title, rating, number of reviews, and product image.
-- Toast notifications for user feedback.
-- Graceful error handling.
+A simple application that scrapes Amazon product listings from the first page of search results for a given keyword.
 
 ---
 
 ## Prerequisites
 
 - [Bun](https://bun.sh/) installed.
-- Internet connection to access Amazon.
 
 ---
 
@@ -31,8 +20,6 @@ cd amazon-product-listings-scraper
 ```
 
 2. **Install dependencies**
-
-You need to install dependencies for both backend and frontend.
 
 Run the following command from the root directory to install dependencies for both backend and frontend:
 
@@ -61,29 +48,6 @@ This will start:
 2. Enter a search keyword (e.g., “headphones”).
 3. Click **Search**.
 4. View the scraped product listings displayed in the table.
-
----
-
-## Project Structure
-
-```
-amazon-product-listings-scraper/
-├── backend/
-│   ├── src/                  # Backend source code
-│   │   ├── index.ts          # Entry point of the backend server
-│   │   └── types.ts          # TypeScript type definitions
-│   ├── package.json          # Backend dependencies and scripts 
-│   └── tsconfig.json         # TypeScript configuration for backend 
-├── frontend/
-│   ├── src/                  # Frontend source code
-│   │   ├── index.html        # Frontend HTML file
-│   │   ├── main.js           # Frontend JavaScript logic
-│   │   └── style.css         # Frontend CSS styles
-│   ├── package.json          # Frontend dependencies and scripts 
-│   └── vite.config.js        # Vite configuration file for frontend
-├── package.json              # Root dependencies and scripts
-└── README.md                 # Project documentation
-```
 
 ---
 

@@ -16,7 +16,7 @@ A simple fullstack application that scrapes Amazon product listings from the fir
 
 ## Prerequisites
 
-- [Bun](https://bun.sh/) installed (recommended latest version).
+- [Bun](https://bun.sh/) installed.
 - Internet connection to access Amazon.
 
 ---
@@ -34,7 +34,7 @@ cd amazon-product-listings-scraper
 
 You need to install dependencies for both backend and frontend.
 
-Run the following from the root directory to install dependencies in both:
+Run the following command from the root directory to install dependencies for both backend and frontend:
 
 ```bash
 bun install:all
